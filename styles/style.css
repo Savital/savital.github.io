@@ -1,0 +1,57 @@
+html {
+	font-size: 30px;
+	font-family: 'Aguafina Script';
+	background-color: #FFA07A
+}
+
+body {
+	width: 600px;
+	margin: 0 auto;
+	background-color: #FF9500;
+	padding: 0 20px 20px 20px;
+	border: 5px solid black;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+
+h2 {
+  margin: 0;
+  padding: 10px 0;    
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+
+p, li {
+  font-size: 20px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
