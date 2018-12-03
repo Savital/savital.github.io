@@ -7,17 +7,41 @@
 		<link href="styles/style.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<h1 align="middle">Savital homepage</h1>
+		<h1 align="middle" id="a1">Savital homepage</h1>
+
+		<nav class="menu">
+  		<ul>
+    		<li><a href="#a1">Savital homepage</a></li>
+    		<li><a href="#a2">О мне</a></li>
+    		<li><a href="#a3">Контакты</a></li>
+  		</ul>
+		</nav>
+
+		<h2 align="middle"><a id="a2"></a>О мне:</h2>
 		<img align="middle" src="images/lupis.jpg" alt="Test Image">
 		<p align="middle">I'm studing at BMSTU on ISC7 faculty<p>
-		<p align="middle">Email: savital@protonmail.com<p>
-		<h2 align="middle">Refs:</h2>
+
+		<h2 align="middle"><a id="a3"></a>Контакты:</h2>
+
 		<ul align="middle">
+			<li class="simpleRef" class="Email">Email: savital@protonmail.com</li>
 			<li class="simpleRef">Repos:</li>
 				<a href="https://github.com/Savital/savital.github.io" class="button"> View On GitHub </a>
 			<li class="simpleRef">Personal pages:</li>
-				<a href="https://vk.com/savital" class="button"> Go to VK-page </a>	
+				<a href="https://vk.com/savital" class="button"> Go to VK-page </a>
 		</ul>
+
+		<form align="middle" action="https://github.com/">
+			<input type="text" name="q" value="">
+			<input type="hidden" name="ia" value="images">
+			<button type="submit">Найти</a>
+		</form>
+
+		<style>
+		html {
+    		background-image: url(images/df.jpg); /* Путь к фоновому изображению */
+    		background-color: #c7b39b; /* Цвет фона */
+   		}
+  		</style>
 	</body>
 </html>
-	

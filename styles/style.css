@@ -1,11 +1,20 @@
 html {
 	font-size: 30px;
 	font-family: 'Aguafina Script';
-	background-color: #FFA07A
+	background-color: #FFA07A;
+	background-image: url(images/df.jpg);
+}
+
+.slide {
+	background-image: url(images/df.jpg);
+}
+
+nav {
+    display: block;
 }
 
 body {
-	width: 600px;
+	width: 800px;
 	margin: 0 auto;
 	background-color: #FF9500;
 	padding: 0 20px 20px 20px;
@@ -29,20 +38,20 @@ img {
 
 h1 {
   margin: 0;
-  padding: 20px 0;    
+  padding: 20px 0;
   color: #00539F;
   text-shadow: 3px 3px 1px black;
 }
 
 h2 {
   margin: 0;
-  padding: 10px 0;    
+  padding: 10px 0;
   color: #00539F;
   text-shadow: 3px 3px 1px black;
 }
 
 p, li {
-  font-size: 20px;    
+  font-size: 20px;
   line-height: 2;
   letter-spacing: 1px;
 }
