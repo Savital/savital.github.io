@@ -1,0 +1,43 @@
+<div id="app">
+	<header>
+		<h1 class="title">
+			<span class="face face--tatiana"
+				  :class="{ 'is-active': current.name.indexOf('Tatiana') > -1 }"
+				  @click="setCurrent('tatiana')"
+			>
+				NE
+			</span>
+			<span class="face face--bryan"
+				  :class="{ 'is-active': current.name.indexOf('Bryan') > -1 }"
+				  @click="setCurrent('bryan')"
+			>
+				TWO
+			</span>
+			<span class="face face--tony"
+				  :class="{ 'is-active': current.name.indexOf('Tony') > -1 }"
+				  @click="setCurrent('tony')"
+			>
+				RK
+			</span>
+		</h1>
+	</header>
+
+	<main>
+		<blockquote v-show="current.quote" class="quotation">
+			“{{ current.quote }}”
+		</blockquote>
+
+		<section
+			v-show="current.name"
+			class="profile"
+			:style="`background-image: url(${current.image});`"
+		>
+			<h2 class="name">{{ current.name }}</h2>
+			<p class="character">{{ current.character }}</p>
+		</section>
+	</main>
+</div>
+
+<footer class="footer">
+	Inspired from <a href="https://networkbroadway.com/">Network on Broadway</a>
+</footer>
